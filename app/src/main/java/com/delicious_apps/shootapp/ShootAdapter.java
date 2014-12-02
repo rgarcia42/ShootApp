@@ -27,6 +27,7 @@ import java.util.List;
 
 /**
  * Created by Raymond on 11/24/2014.
+ * Shoot app adapter class
  */
 public class ShootAdapter extends ArrayAdapter<ParseObject> implements AdapterView.OnItemClickListener {
 
