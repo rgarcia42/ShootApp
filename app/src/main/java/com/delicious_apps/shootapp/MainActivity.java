@@ -100,6 +100,7 @@ public class MainActivity extends ActionBarActivity {
         }
         else {
             // Handle other intents, such as being started from the home screen
+
             ParseQuery<ParseObject> query = ParseQuery.getQuery("Shoot");
             query.findInBackground(new FindCallback<ParseObject>() {
                 @Override
